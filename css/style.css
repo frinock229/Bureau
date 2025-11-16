@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 8vh;
+    padding: 18px;
+}
+
+
+.o {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.sa {
+    padding-top: 5vh;
+    margin-top: -10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background: linear-gradient(45deg, rgb(247, 52, 52), blue);
+    color: white;
+}
+
+.sas {
+    display: block;
+    padding: 20px;
+    text-align: start;
+}
+
+.li {
+    gap: 10px;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.sa input[type="submit"] {
+    background-color: rgb(227, 235, 233);
+    margin-top: 2vh;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: #f3f1f1;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form input,
+textarea {
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    padding: 8px 0;
+    width: 100%;
+    outline: none;
+    resize: none;
+}
+
+.formulaire {
+    margin: 2vh;
+}
+
+
+.o i {
+    font-size: 25px;
+    color: red;
+}
